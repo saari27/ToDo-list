@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<!--FORMAT, TITEL IM TAB UND LINK ZU css-->
+<head>
+	<meta charset="UTF-8">
+	<title>To-Do List</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<!--TITEL-->
+<body>
+	<h1>To-Do List</h1>
+	<form>
+<!--LABLE FÜR DEN INPUT-->
+		<label for="task">New task:</label>
+<!--TEXT IM INPUT-->
+		<input type="text" id="task" placeholder="Enter task">
+<!--BUTTON MIT TEXT-->
+		<button type="submit">Add task</button>
+	</form>
+<!--HIER WERDEN DIE TASKS ERSTELLT IN EINER LISTE-->
+	<ul id="task-list">
+		<!-- Tasks will be added dynamically here -->
+    </ul>
+    
+<!--LINK ZUM .js SKRIPT-->    
+    <script src="java.js"></script>
+</body>
+</html>
