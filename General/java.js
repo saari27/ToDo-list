@@ -7,9 +7,7 @@ const checkboxes = document.querySelectorAll('.checkbox');
 
 form.addEventListener('submit', function(event) {
 	event.preventDefault();
-	if (input.value === '') {
-		return;
-	}
+
 	const taskText = input.value;
 	const li = document.createElement('li');
 
